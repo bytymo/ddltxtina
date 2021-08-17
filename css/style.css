@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.banner-title {
+  margin: 8px 16px;
+}
+
+header {
+  width: 100%;
+  position: relative;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.banner {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+}
+
+h1 {
+  color: darkorchid;
+  font-size: 3em;
+}
+
+.button {
+  color: darkorchid;
+  background-color: transparent;
+  border: 2px solid darkorchid;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+  font-size: 1rem;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: white;
+  background-color: darkorchid;
+}
+
+.schedule {
+  text-align: center;
+  margin: 0px auto;
+}
+
+main {
+  height: 100%;
+  width: 60%;
+  margin: auto;
+  background-color: white;
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+  padding: 10px 0px 30px;
+}
+
+p {
+  padding: 15px;
+  text-align: justify
+}
+
+footer {
+  bottom: 0;
+  padding: 10px;
+}
+
+.socialmedia {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.soc-icon {
+  font-size: 3em;
+  padding: 5px;
+  color: black;
+}
+
+.soc-icon:hover {
+  color: darkorchid;
+}
+
+.soc-icon:visited {
+  color: black;
+}
+
+.copy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  width: 100%;
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.col {
+  min-width: 49%;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.col-title {
+  padding: 15px;
+  text-align: center;
+}
+
+.col-form {
+  margin: auto;
+  padding-left: 50px;
+}
+
+.col-form input,
+.col-form label{
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
